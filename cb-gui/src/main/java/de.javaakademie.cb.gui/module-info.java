@@ -1,6 +1,4 @@
 module de.javaakademie.cb.gui {
-	exports de.javaakademie.cb.gui to javafx.graphics,javafx.fxml;
-	opens de.javaakademie.cb.gui to javafx.fxml;
     requires de.javaakademie.cb.api;
 
     requires javafx.base;
